@@ -1,15 +1,15 @@
 [versions]
-agp = "8.3.0"
-kotlin = "1.9.0"
+agp = "8.3.1"
+kotlin = "1.9.10"
 coreKtx = "1.12.0"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
 appcompat = "1.6.1"
 material = "1.11.0"
-activity = "1.8.0"
+activity = "1.8.2"
 constraintlayout = "2.1.4"
-hilt ="2.44"
+hilt ="2.51"
 lifecycleVersion = "2.7.0"
 retrofit = "2.10.0"
 okhttp="4.12.0"
@@ -43,7 +43,7 @@ kotlinx-coroutines-core={group="org.jetbrains.kotlinx" , name="kotlinx-coroutine
 navigation-fragment =  {group ="androidx.navigation",name="navigation-fragment-ktx",version.ref="navigation"}
 navigation-ui =  {group ="androidx.navigation",name="navigation-ui-ktx",version.ref="navigation"}
 # ---------- Android Spinkit ---------
-android-spint-kit = {group="com.github.ybq",name="Android-SpinKit", version.ref="spinKit"}
+android-spin-kit = {group="com.github.ybq",name="Android-SpinKit", version.ref="spinKit"}
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

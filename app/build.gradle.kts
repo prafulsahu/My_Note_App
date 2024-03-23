@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    alias(libs.plugins.hiltDaggerAndroid)
     kotlin("kapt")
 }
 
@@ -66,5 +67,8 @@ dependencies {
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
 //    ------- SpinKit --------
-    implementation(libs.android.spint.kit)
+    implementation(libs.android.spin.kit)
+}
+kapt{
+    correctErrorTypes = true
 }
